@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menuopen,setmenuopen] = useState(false)
   return (
     <nav className='navbar'>
-        <Link className="logo" to={"/"}>Tech420</Link>
+        <Link className="logo" to={"/"}>Raimath</Link>
         <div className='menu' onClick={()=>{
           setmenuopen(!menuopen);
         }}>
